@@ -4,6 +4,12 @@ import styles from '@styles/home.module.css'
 export default function Home() {
   const [number, setNumber] = React.useState('')
 
+  const handleChange = (e) => {
+    if (e.target.value.match(/^[0-9]{0,}$/) === null) return
+
+    setNumber(e.target.value)
+  }
+
   return (
     <div className={styles.mainContainer}>
       <div className={styles.descriptionContainer}>
@@ -24,9 +30,10 @@ export default function Home() {
       </div>
       <input
         className={styles.input}
+        value={number}
         placeholder="Enter phone number"
-        type="text"
-        onChange={(e) => setNumber(e.target.value)}
+        type="tel"
+        onChange={handleChange}
       />
       <p>
         Then just click the one you want:
