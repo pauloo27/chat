@@ -6,7 +6,7 @@
     "scope": "/",
     "start_url": "/",
     "name": "Click to Chat",
-    "short_name": "click2chat",
+    "short_name": "C2C",
     "description": "Click to message, call or Whatsapp someone",
     "screenshots":[
         {"src":"screenshot.png", "sizes":"1170x2532", "type":"image/png"}
