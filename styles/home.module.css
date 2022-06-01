@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  background-color: #353535;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.link {
+  background-color: #C0FFEE;
+  border-radius: 5px;
+  padding: 10px 30px;
+  min-width: 60%;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  color: #212121;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.highlight {
+  color: #C0FFEE;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 22px;
+  text-align:center;
+}
