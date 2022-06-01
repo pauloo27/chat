@@ -7,7 +7,7 @@ Access it at [chat.db.cafe](chat.db.cafe).
 
 ## Screenshot
 
-_missing =(_
+<img src="./public/screenshot.png" alt="web app screenshot" width="400px" />
 
 ## License
 
