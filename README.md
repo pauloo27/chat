@@ -3,7 +3,7 @@
 A simple "click to chat" web app to send messages
 without saving the contact.
 
-Access it at [chat.db.cafe](chat.db.cafe).
+Access it at [https://chat.db.cafe](https://chat.db.cafe).
 
 ## Screenshot
 
