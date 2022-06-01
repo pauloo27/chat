@@ -1,12 +1,16 @@
 {
     "theme_color": "#c0ffee",
+    "id": "click2chat",
     "background_color": "#212121",
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "name": "Click to Chat",
-    "short_name": "chat",
+    "short_name": "click2chat",
     "description": "Click to message, call or Whatsapp someone",
+    "screenshots":[
+        {"src":"screenshot.png", "sizes":"1170x2532", "type":"image/png"}
+    ],
     "icons": [
         {
             "src": "/icon-192x192.png",
