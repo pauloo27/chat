@@ -9,6 +9,7 @@
   color: #fff;
   border: none;
   border-radius: 5px;
+  text-align: center;
   padding: 10px;
   font-size: 22px;
   margin: 20px;
@@ -18,13 +19,13 @@
   background-color: #C0FFEE;
   border-radius: 5px;
   padding: 10px 30px;
-  min-width: 60%;
   text-align: center;
   text-decoration: none;
   margin: 10px;
   color: #212121;
   font-size: 16px;
   font-weight: bold;
+  min-width: 200px;
 }
 
 .descriptionContainer {
