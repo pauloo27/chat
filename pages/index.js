@@ -5,9 +5,15 @@ export default function Home() {
   const [number, setNumber] = React.useState('')
 
   const handleChange = (e) => {
-    if (e.target.value.match(/^[0-9]{0,}$/) === null) return
+    const { value } = e.target
+    if (value === '') {
+      setNumber('')
+      return
+    }
 
-    setNumber(e.target.value)
+    const numbers = value.match(/\d+/g)
+    if (numbers === null) return
+    setNumber(numbers.join(''))
   }
 
   return (
